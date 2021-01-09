@@ -2,7 +2,7 @@
     min-width: 49%;
 }
 
-@media screen and (max-width : 767px) and (min-width : 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
     .place__paragraph {
         max-width: 90%;
     }

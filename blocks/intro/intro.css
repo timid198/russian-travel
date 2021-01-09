@@ -6,21 +6,21 @@
     margin: 0 auto; 
 }
 
-@media screen and (max-width : 767px) and (min-width : 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
     .intro {
         max-width: 100%;
         padding-top: 32vmin;   
     }
 }
 
-@media screen and (max-width : 1023px) and (min-width : 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
     .intro {
         max-width: 100%;
         padding-top: 18.3vmin;   
     }
 }
 
-@media screen and (max-width : 1279px) and (min-width : 1024px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
     .intro {
         max-width: 90.6%;
         padding-top: 14.4vmin;   

@@ -23,7 +23,7 @@
     min-height: 100vmin;
 }
 
-@media screen and (min-width : 1280px) {
+@media screen and (min-width: 1280px) {
     .main {
         grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
         grid-template-areas:

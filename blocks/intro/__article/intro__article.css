@@ -4,21 +4,21 @@
     padding-top: 6vmin;
 }
 
-@media screen and (max-width : 767px) and (min-width : 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
     .intro__article {
         max-width: 90%;
         padding-top: 20vmin;
     }
 }
 
-@media screen and (max-width : 1023px) and (min-width : 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
     .intro__article {
         max-width: 100%;
         padding-top: 8.33vmin;
     }
 }
 
-@media screen and (max-width : 1279px) and (min-width : 1024px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
     .intro__article {
         max-width: 73%;
         padding-top: 6.25vmin;
