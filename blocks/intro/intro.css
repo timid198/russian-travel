@@ -1,7 +1,7 @@
 .intro {
     grid-area: intro;
     position: relative;
-    max-width: 77%;    
+    max-width: 77%;
     padding-top: 13vmin;
     margin: 0 auto; 
 }

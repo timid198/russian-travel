@@ -3,7 +3,7 @@
     padding-top: 11vmin;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, max-content) ;
+    grid-template-rows: repeat(2, max-content);
     align-items: flex-start;
     gap: 7vmin 4%;
 }
