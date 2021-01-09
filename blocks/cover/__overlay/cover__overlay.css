@@ -15,7 +15,7 @@
 }
 
  .cover__overlay:link {
-    background-image: url(./../../../images/overlay.png);
+    background-image: url(./../../../images/cover-overlay.png);
 }
 
 .cover__overlay:hover {
