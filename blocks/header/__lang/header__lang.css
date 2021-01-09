@@ -1,0 +1,21 @@
+.header__lang {    
+    margin-left: 2.25vmin;    
+}
+
+@media screen and (max-width : 767px) and (min-width : 320px) {
+    .header__lang {
+        margin-left: 5,625vmin;
+    }        
+}
+
+@media screen and (max-width : 1023px) and (min-width : 768px) {
+    .header__lang {
+        margin-left: 3,75vmin;
+    }  
+}
+
+@media screen and (max-width : 1279px) and (min-width : 1024px) {
+    .header__lang {
+        margin-left: 2.8vmin;
+    }  
+}
