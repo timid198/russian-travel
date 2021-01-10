@@ -1,4 +1,7 @@
 .main {
+    max-width: 1280px;
+    min-width: 320px;
+    margin: 0 auto;
     display: grid;
     justify-items: center;
     grid-template-columns: minmax(min-content, max-content);
@@ -13,7 +16,7 @@
     "footer";
     position: relative;
     background-color: #2A2C2F;
-    font-family: 'Inter', 'Helvetica Neue';
+    font-family: 'Inter', 'Arial', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -23,16 +26,16 @@
     min-height: 100vmin;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
     .main {
-        grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
-        grid-template-areas:
+    grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
+    grid-template-areas:
     ". header ."
     ". lead ."
     ". intro ."
     ". photo-grid ."
     ". places ."
     ". cover ."
-    ". footer .";  
+    ". footer .";
     }
 }

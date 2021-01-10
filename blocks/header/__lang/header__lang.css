@@ -2,6 +2,10 @@
     margin-left: 2.25vmin;    
 }
 
+.header__lang:hover {
+    opacity: 0.3;
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .header__lang {
         margin-left: 5,625vmin;

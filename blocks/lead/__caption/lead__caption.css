@@ -1,4 +1,5 @@
-.lead__caption {   
+.lead__caption {
+    margin: 0;  
     max-width: 54%;
     padding-top: 1vmin;
     align-self: flex-start;
@@ -6,17 +7,20 @@
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .lead__caption {
-        margin: 0 auto;
-        max-width: 90%;
         padding-top: 4vmin;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
+    .lead__caption {
+        padding-top: 1.7vmin;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 320px) {
     .lead__caption { 
         max-width: 90%;
         margin: 0 auto;
-        padding-top: 1.7vmin;
     }
 }
 
