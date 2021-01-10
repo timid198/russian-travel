@@ -1,9 +1,26 @@
-.place__paragraph-article {    
+.place__paragraph-article { 
+    font-size: 18px;
+    line-height: 29.34px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0;   
     padding-bottom: 4vmin;
 }
 
+.place__paragraph-article:nth-child(2n) {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 320px) {
+    .place__paragraph-article { 
+        font-size: 16px;
+        line-height: 26,08px;
+    }
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) {
-    .place__paragraph-article {    
+    .place__paragraph-article {
         padding-bottom: 12.5vmin;
     }
 }

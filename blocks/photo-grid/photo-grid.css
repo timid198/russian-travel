@@ -1,8 +1,9 @@
 .photo-grid {
     position: relative;
     max-width: 92.5%;
-    padding-top: 13vmin;
+    padding-top: 12vmin;
     grid-area: photo-grid;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);

@@ -1,4 +1,9 @@
-.header__lang {    
+.header__lang {  
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
     margin-left: 2.25vmin;    
 }
 
@@ -8,6 +13,8 @@
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .header__lang {
+        font-size: 18px;
+        line-height: 0.9;
         margin-left: 5,625vmin;
     }        
 }

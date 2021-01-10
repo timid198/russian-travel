@@ -4,18 +4,20 @@
     width: 100%;
     min-height: 72.5vmin;
     object-fit: contain, fill;
-    overflow: hidden;
-    display: block; 
+    display: block;
+    padding-bottom: 1vmin; 
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .lead__image {
-        min-height: 100vmin;  
+        min-height: 100vmin;
+        padding-bottom: 4vmin;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .lead__image {
-        min-height: 90vmin;  
+        min-height: 90vmin;
+        padding-bottom: 1.4vmin; 
     }
 }

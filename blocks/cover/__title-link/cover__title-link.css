@@ -3,23 +3,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-decoration: none;
-    max-width: 50%;
-}
-
-.cover__title-link:hover {
-    opacity: 0.3;    
+    padding-top: 30vmin;
+    max-width: 47%;
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .cover__title-link {
-        max-width: 80%;
+        padding-top: 15.5vmin;
+        max-width: 90%;
     }
 }
 
-@media screen and (max-width: 1279px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
     .cover__title-link {
-        max-width: 54%;
+        padding-top: 24vmin;
+        max-width: 73%;
+    }
+} 
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .cover__title-link {
+        padding-top: 30vmin;
+        max-width: 55%;
     }
 } 
