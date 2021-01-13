@@ -4,29 +4,29 @@
     font-weight: 400;
     font-style: normal;
     color: white;
-    margin-left: 2.25vmin;    
+    padding-left: 2.25vmin;    
 }
 
 .header__lang:hover {
     opacity: 0.3;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
     .header__lang {
         font-size: 18px;
         line-height: 0.9;
-        margin-left: 5,625vmin;
+        padding-left: 9vmin;
     }        
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .header__lang {
-        margin-left: 3,75vmin;
+        padding-left: 3.75vmin;
     }  
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .header__lang {
-        margin-left: 2.8vmin;
+        padding-left: 2.8125vmin;
     }  
 }

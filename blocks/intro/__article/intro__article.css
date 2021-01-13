@@ -4,18 +4,18 @@
     font-weight: 400;
     font-style: normal;
     color: white;
-    max-width: 74%;
+    max-width: 70.12195%;
     margin: 0;
     padding-top: 5vmin;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 320px) {
+@media screen and (max-width: 1023px) {
     .intro__article {
         max-width: 100%;
     }
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro__article {
         padding-top: 20vmin;
     }
@@ -23,13 +23,13 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .intro__article {
-        padding-top: 8.33vmin;
+        padding-top: 8.33333vmin;
     }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .intro__article {
-        max-width: 73%;
+        max-width: 74.35345%;
         padding-top: 6.25vmin;
     }
 }

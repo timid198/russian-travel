@@ -9,13 +9,10 @@
     grid-area: cover;
     width: 92.5%;
     min-height: 92.5vmin;
+    
 }
 
-.cover:hover {
-    background-image: url(./../../images/cover-overlay.png), url(./../../images/cover-trains.jpg);
-}
-
-@media screen and (max-width: 1279px) and (min-width: 320px) {
+@media screen and (max-width: 1279px) {
     .cover {
         max-width: 100%;
         width: 100%;

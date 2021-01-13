@@ -1,12 +1,12 @@
 .intro {
     grid-area: intro;
     position: relative;
-    max-width: 72.5%;
-    padding-top: 11vmin;
+    max-width: 76.875%;
+    padding-top: 11.5vmin;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro {
         padding-top: 32vmin;
     }
@@ -14,11 +14,11 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .intro {
-        padding-top: 18.3vmin;
+        padding-top: 18.33333vmin;
     }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 320px) {
+@media screen and (max-width: 1023px) {
     .intro {
         max-width: 90%;
     }
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .intro {
-        max-width: 90.6%;
-        padding-top: 14.4vmin;
+        max-width: 90.625%;
+        padding-top: 14.375vmin;
     }
 }

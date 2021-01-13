@@ -6,9 +6,9 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__image {        
-        height: 160vmin;
+        min-height: 160vmin;
     }
 }
 

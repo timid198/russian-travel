@@ -1,6 +1,5 @@
 .page {
-    max-width: 1280px;
-    min-width: 320px;
+    min-height: 100vmin;
     margin: 0 auto;
     display: grid;
     justify-items: center;
@@ -19,7 +18,6 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    min-height: 100vmin;
 }
 
 @media screen and (min-width: 1281px) {

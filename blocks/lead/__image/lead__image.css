@@ -2,13 +2,13 @@
     max-width: 100%;
     max-height: 100%;
     width: 100%;
-    min-height: 72.5vmin;
-    object-fit: contain, fill;
+    height: 75.875vmin;
+    object-fit: cover;
     display: block;
     padding-bottom: 1vmin; 
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead__image {
         min-height: 100vmin;
         padding-bottom: 4vmin;
@@ -17,7 +17,14 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .lead__image {
-        min-height: 90vmin;
-        padding-bottom: 1.4vmin; 
+        min-height: 100vmin;
+        padding-bottom: 1.667vmin; 
+    }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .lead__image {
+        min-height: 90.625vmin;
+        padding-bottom: 1.25vmin; 
     }
 }

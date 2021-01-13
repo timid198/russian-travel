@@ -1,30 +1,15 @@
 .cover__title-link {
-    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgba(46, 46, 50, .3);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
-    padding-top: 30vmin;
-    max-width: 47%;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    .cover__title-link {
-        padding-top: 15.5vmin;
-        max-width: 90%;
-    }
+.cover__title-link:hover {
+    background-color: rgba(46, 46, 50, .8);
 }
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    .cover__title-link {
-        padding-top: 24vmin;
-        max-width: 73%;
-    }
-} 
-
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-    .cover__title-link {
-        padding-top: 30vmin;
-        max-width: 55%;
-    }
-} 

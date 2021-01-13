@@ -6,15 +6,25 @@
     font-style: normal;
     text-align: center;
     color: white;
+    max-width: 47.3%;
 }
 
-.cover__title:hover {
-    opacity: 0.3;    
-}
-
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
 	.cover__title {
         font-size: 32px;
         line-height: 35px;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .cover__title {
+        max-width: 73%;
+    }
+} 
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .cover__title {
+        max-width: 54.68%;
     }
 }

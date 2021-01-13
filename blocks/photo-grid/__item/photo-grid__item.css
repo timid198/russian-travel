@@ -7,9 +7,9 @@
     display: block;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid__item {
-        height: 108vmin;
+       min-height: 108vmin;
     }
 }
 
