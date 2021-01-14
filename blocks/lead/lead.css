@@ -1,20 +1,15 @@
 .lead {
     grid-area: lead;
     max-width: 76.875%;
+    max-height: 100%;
     position: relative;
-    padding-top: 7vmin;
+    padding-top: 56px;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
     .lead {
-        padding-top: 24vmin;
-    }
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    .lead {
-        padding-top: 10vmin;
+        padding-top: 48px;
     }
 }
 
@@ -27,6 +22,5 @@
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .lead {
         max-width: 90.625%;
-        padding-top: 7.5vmin;
     }
 }

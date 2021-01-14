@@ -5,7 +5,7 @@
     font-style: normal;
     color: white;
     text-decoration: none;
-    padding-right: 2.25vmin;
+    padding-right: 18px;
 }
 
 .footer__link:hover {
@@ -17,18 +17,6 @@
         font-size: 24px;
         line-height: 24px;
         padding-right: 0;
-        padding-bottom: 16vmin;
-    }
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    .footer__link {
-        padding-right: 3.75vmin;
-    }
-} 
-
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-    .footer__link {
-        padding-right: 2.8125vmin;
+        padding-bottom: 32px;
     }
 }

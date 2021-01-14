@@ -7,8 +7,8 @@
     justify-content: space-between;
     min-width: 92.5%;
     margin: 0 auto;
-    padding-top: 11.5vmin;
-    padding-bottom: 3vmin;
+    padding-top: 92px;
+    padding-bottom: 24px;
 }
 
 @media screen and (max-width: 767px) {
@@ -17,24 +17,20 @@
         min-width: 100%;
         margin: 0;
         justify-content: flex-start;
-        padding-left: 5%;
-        padding-top: 32vmin;
-        padding-bottom: 12vmin;
+        padding-left: 16px;
+        padding-top: 64px;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .footer {
         min-width: 93.75%;
-        padding-top: 18.333vmin;
-        padding-bottom: 5vmin;
+        padding-top: 88px;
     }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .footer {
         min-width: 90.625%;
-        padding-top: 14.375vmin;
-        padding-bottom: 3.75vmin;
     }
 }

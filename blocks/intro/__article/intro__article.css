@@ -6,7 +6,7 @@
     color: white;
     max-width: 70.12195%;
     margin: 0;
-    padding-top: 5vmin;
+    padding-top: 40px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -15,21 +15,8 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .intro__article {
-        padding-top: 20vmin;
-    }
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    .intro__article {
-        padding-top: 8.33333vmin;
-    }
-}
-
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .intro__article {
         max-width: 74.35345%;
-        padding-top: 6.25vmin;
     }
 }

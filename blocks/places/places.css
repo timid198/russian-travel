@@ -1,8 +1,8 @@
 .places {
     position: relative;
     grid-area: places;
-    padding-top: 1.5vmin;
-    padding-bottom: 11.5vmin;
+    padding-top: 12px;
+    padding-bottom: 92px;
     max-width: 76.875%;
     margin: 0 auto;
     display: grid;
@@ -12,24 +12,22 @@
 
 @media screen and (max-width: 767px) {
     .places {
-        padding-top: 7vmin;
-        padding-bottom: 20vmin;
+        padding-top: 32px;
+        padding-bottom: 66px;
         max-width: 100%;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .places {
-        padding-top: 3.125vmin;
-        padding-bottom: 18.75vmin;
+        padding-top: 15px;
+        padding-bottom: 90px;
         max-width: 93.75%;
     }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .places {
-        padding-top: 1.875vmin;
-        padding-bottom: 14.375vmin;
         max-width: 90%;
     }
 }

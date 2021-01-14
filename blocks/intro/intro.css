@@ -2,19 +2,19 @@
     grid-area: intro;
     position: relative;
     max-width: 76.875%;
-    padding-top: 11.5vmin;
+    padding-top: 92px;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
     .intro {
-        padding-top: 32vmin;
+        padding-top: 64px;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .intro {
-        padding-top: 18.33333vmin;
+        padding-top: 88px;
     }
 }
 
@@ -27,6 +27,5 @@
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .intro {
         max-width: 90.625%;
-        padding-top: 14.375vmin;
     }
 }

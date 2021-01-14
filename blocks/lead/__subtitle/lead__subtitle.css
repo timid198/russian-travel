@@ -5,30 +5,22 @@
     font-style: normal;
     text-align: center;
     color: white;
-    max-width: 65%;
+    max-width: 640px;
     margin: 0 auto;
-    padding-bottom: 8vmin; 
+    padding-bottom: 64px; 
 }
 
 @media screen and (max-width: 767px) {
     .lead__subtitle {
         font-size: 16px;
         line-height: 20px;
-        max-width: 90%;
-        padding-bottom: 20vmin; 
+        max-width: 288px;
+        padding-bottom: 40px; 
     }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
     .lead__subtitle {
-        max-width: 83.33%;
-        padding-bottom: 11.667vmin; 
-    }
-}
-
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-    .lead__subtitle {
-        max-width: 68.97%;
-        padding-bottom: 8.75vmin; 
+        padding-bottom: 56px; 
     }
 }

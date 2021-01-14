@@ -6,29 +6,11 @@
     letter-spacing: 0.2em;
     color: white;
     margin: 0;
-    padding-bottom: 1.5vmin;
+    padding-bottom: 12px;
 }
 
 @media screen and (max-width: 1023px) {
     .place__url {        
         line-height: 12px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .place__url {
-        padding-bottom: 6vmin;
-    }
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    .place__url {
-        padding-bottom: 2.5vmin;
-    }
-}
-
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-    .place__url {
-        padding-bottom: 1,875vmin;
     }
 }
