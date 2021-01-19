@@ -7,10 +7,10 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    text-decoration: none;
-    transition: top 1s linear 0.5s;
+    text-decoration: none;    
 }
 
 .cover__title-link:hover {
     background-color: rgba(46, 46, 50, .8);
+    transition: top 1s linear 0.5s;
 }
