@@ -12,5 +12,5 @@
 
 .cover__title-link:hover {
     background-color: rgba(46, 46, 50, .8);
-    transition: top 1s linear 0.5s;
+    transition: background-color 2s;
 }
