@@ -6,6 +6,7 @@
     color: white;
     text-decoration: none;
     padding-right: 18px;
+    transition: opacity 2s;
 }
 
 .footer__link:hover {
